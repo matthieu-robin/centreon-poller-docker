@@ -4,7 +4,6 @@ MAINTAINER jmathis <julien.mathis@gmail.com>
 
 # setup network
 RUN echo "NETWORKING=yes" > /etc/sysconfig/network
-RUN ifconfig
 
 # CENTOS
 RUN yum -y update
