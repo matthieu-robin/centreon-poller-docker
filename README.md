@@ -1,0 +1,2 @@
+centreon-poller-docker
+======================
