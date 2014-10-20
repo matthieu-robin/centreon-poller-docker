@@ -19,6 +19,6 @@ RUN yum -y install centreon-engine centreon-broker-cbmod nagios-plugins centreon
 #RUN pip install supervisor
 #ADD supervisord.conf /etc/
 
-EXPOSE 22 80
+EXPOSE 22
 
-CMD ["/usr/bin/supervisord", "-n"]
+#CMD ["/usr/bin/supervisord", "-n"]
