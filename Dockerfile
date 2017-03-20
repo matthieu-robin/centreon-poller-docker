@@ -1,6 +1,6 @@
 FROM centos:centos6
 VERSION 1.0
-MAINTAINER jmathis <julien.mathis@gmail.com>
+MAINTAINER matthieu-robin
 
 # setup network
 RUN echo "NETWORKING=yes" > /etc/sysconfig/network
